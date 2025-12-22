@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary-sky: #89CFF0;
+  /* Baby Blue */
+  --secondary-sky: #F0F8FF;
+  /* Alice Blue */
+  --accent-blue: #0077B6;
+  --cloud-white: #FFFFFF;
+  --sun-gold: #FFC300;
+  --text-main: #023E8A;
+  --text-body: #48CAE4;
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --shadow-soft: 0 10px 40px -10px rgba(0, 119, 182, 0.15);
+  --gradient-main: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  /* Placeholder reset */
+  --gradient-sky: linear-gradient(135deg, #e0f2fe 0%, #ffffff 100%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: radial-gradient(circle at 50% -20%, #e0f2fe 0%, #f0f9ff 40%, #ffffff 100%);
+  color: #1e293b;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-soft);
+  border-radius: 24px;
+}
+
+.btn {
+  background: linear-gradient(135deg, #FFC300 0%, #FFB700 100%);
+  color: #003049;
+  padding: 12px 32px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 195, 0, 0.3);
+  letter-spacing: 0.5px;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(255, 195, 0, 0.4);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: var(--text-main);
+  font-weight: 800;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--sun-gold);
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
