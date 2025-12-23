@@ -72,7 +72,7 @@ const Hero = () => {
                 }}>
                     <h3 style={{ color: '#005f99', marginBottom: '1rem', fontSize: '1.5rem' }}>Excellence in Education For</h3>
                     <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
-                        {['6th - 10th', '11th & 12th', 'Science', 'Commerce'].map(tag => (
+                        {['1st - 5th', '6th - 10th', '11th & 12th', 'Science', 'Commerce'].map(tag => (
                             <span key={tag} style={{
                                 background: '#e0f7fa',
                                 color: '#006064',

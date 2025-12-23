@@ -26,16 +26,12 @@ const Footer = () => {
                         <h4 style={{ color: '#CAF0F8', marginBottom: '0.5rem' }}>📍 Main Branch</h4>
                         <p style={{ opacity: 0.8, fontSize: '0.9rem' }}>2nd Floor, 'Guru Mauli', Near HP Petrol Pump, Meri - Rasbihari Link Road, Nashik - 422003</p>
                     </div>
-                    <div>
-                        <h4 style={{ color: '#CAF0F8', marginBottom: '0.5rem' }}>📍 DGP Nagar Branch</h4>
-                        <p style={{ opacity: 0.8, fontSize: '0.9rem' }}>Shop No.19, ISHWAR PRATISHTHA 3, Near K.K. Wagh School, Nashik 422006</p>
-                    </div>
                 </div>
 
                 <div>
                     <h3 style={{ fontSize: '1.3rem', marginBottom: '1.5rem', color: '#ADE8F4', fontWeight: '600' }}>Get in Touch</h3>
                     <p style={{ fontSize: '1.5rem', fontWeight: '700', marginBottom: '1rem', color: '#FFD700' }}>
-                        +91 8928772435
+                        +91 9421554793 / +91 8928772435
                     </p>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', opacity: 0.9 }}>
                         <a href="mailto:apexlearninghub2020@gmail.com" style={{ textDecoration: 'underline' }}>apexlearninghub2020@gmail.com</a>

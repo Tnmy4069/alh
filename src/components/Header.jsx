@@ -49,7 +49,7 @@ const Header = () => {
       {/* Navigation */}
       <nav className={`mobile-nav ${isMenuOpen ? 'open' : ''}`}>
         <ul style={{ display: 'flex', gap: '2rem', flexDirection: isMenuOpen ? 'column' : 'row', alignItems: 'center' }}>
-          {['Home', 'Courses', 'Features', 'Contact'].map((item) => (
+          {['Home', 'Courses', 'Features', 'FAQ', 'Contact'].map((item) => (
             <li key={item}>
               <a
                 href={`#${item.toLowerCase()}`}

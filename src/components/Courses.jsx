@@ -4,8 +4,8 @@ const Courses = () => {
     const categories = [
         {
             title: "Academic Excellence",
-            subtitle: "Grades 6th - 12th",
-            items: ["IGCSE & ICSE Boards", "CBSE Curriculum", "SSC & HSC State Boards", "Foundation Courses"],
+            subtitle: "Grades 1st - 12th",
+            items: ["1st to 5th (Primary)", "6th to 10th (Secondary)", "11th & 12th (Science/Commerce)", "All Boards (CBSE/ICSE/State)"],
             gradient: "linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%)",
             icon: "📚"
         },
